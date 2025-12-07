@@ -8,9 +8,7 @@ const Myprofile = () => {
         <div className='flex justify-center items-center my-10'>
             <div>
                 <div className="avatar">
-                    <div className="w-24 rounded-xl">
-                        <img src={user?.photoURL} />
-                    </div>
+                   
                 </div>
                 <h1>{user?.displayName}</h1>
                 <p>{user?.email}</p>
