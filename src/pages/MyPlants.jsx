@@ -9,7 +9,7 @@ const MyPlants = () => {
     const [myPlants, setMyPlants] = useState([]);
     console.log(myPlants)
     useEffect(() => {
-        fetch(`http://localhost:3000/my-plants?email=${user?.email}`)
+        fetch(`https://backend-10-flame.vercel.app/my-plants?email=${user?.email}`)
             .then((res) => res.json())
             .then((data) => setMyPlants(data))
             .catch((err) => console.log(err));

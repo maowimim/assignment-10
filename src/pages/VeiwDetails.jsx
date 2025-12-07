@@ -36,7 +36,7 @@ const VeiwDetails = () => {
             date: new Date()
         };
 
-        axios.post("http://localhost:3000/orders", orderData)
+        axios.post("https://backend-10-flame.vercel.app/orders", orderData)
             .then(res => {
                 console.log(res.data);
                 alert("Order placed successfully!");

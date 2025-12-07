@@ -32,7 +32,7 @@ const AddPlants = () => {
   
     }
     console.log(formData);
-    axios.post('http://localhost:3000/services', formData)
+    axios.post('https://backend-10-flame.vercel.app/services', formData)
     .then(res=>{
       console.log(res);
     })

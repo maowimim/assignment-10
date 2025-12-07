@@ -44,15 +44,15 @@ const router = createBrowserRouter([
         },
         {
           path:'/add-plants',
-          element:<AddPlants></AddPlants>
+          element: <PrivateRouter><AddPlants></AddPlants></PrivateRouter>
         },
          {
           path:'/my-orders',
-          element:<OrderPlants></OrderPlants>
+          element: <PrivateRouter><OrderPlants></OrderPlants></PrivateRouter>
         },
         {
           path:'/my-plants',
-          element:<MyPlants></MyPlants>
+          element:<PrivateRouter><MyPlants></MyPlants></PrivateRouter>
         },
          {
           path:'/update-plant',

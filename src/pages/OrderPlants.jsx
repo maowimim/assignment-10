@@ -5,7 +5,7 @@ const OrderPlants = () => {
        const [myOrders, setMyOrders] = useState([]);
     console.log(myOrders)
     useEffect(() => {
-        axios.get("http://localhost:3000/orders")
+        axios.get("https://backend-10-flame.vercel.app/orders")
             .then(res => {
                 setMyOrders(res.data)
             })
