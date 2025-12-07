@@ -59,22 +59,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Category */}
-        <div className="mb-4">
-          <label className="block mb-1 font-semibold">Category</label>
-          <select
-            name="category"
-            className="w-full border border-gray-300 rounded px-3 py-2"
-            required
-          >
-            <option value="">Select Category</option>
-            <option value="indoor">Indoor Plants</option>
-            <option value="outdoor">Outdoor Plants</option>
-            <option value="tools">Gardening Tools & Supplies</option>
-            <option value="accessories">Plant Pots & Accessories</option>
-          </select>
-        </div>
-
+    
         {/* Price */}
         <div className="mb-4">
           <label className="block mb-1 font-semibold">Price</label>
