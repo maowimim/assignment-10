@@ -3,10 +3,10 @@ import { Link } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvider';
 
 const Navbar = () => {
-  const { user, userlogout } = use(AuthContext)
+  const { user, userLogout } = use(AuthContext)
 
   const handleLogout = () => {
-     userlogout()
+     userLogout()
       .then(()=>{
 
       })
@@ -27,6 +27,8 @@ const Navbar = () => {
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/plantdata'>Plants</Link></li>
             <li><Link to="/myprofile">My Profile</Link></li>
+            <li><Link to="/my-orders">My Orders</Link></li>
+            <li><Link to="/my-plants">My Plants</Link></li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Green Nest</a>
@@ -37,6 +39,8 @@ const Navbar = () => {
           <li><Link to='/plantdata'>Plants</Link></li>
           <li><Link to="/myprofile">My Profile</Link></li>
           <li><Link to="/add-plants">Add Plants</Link></li>
+           <li><Link to="/my-orders">My Orders</Link></li>
+             <li><Link to="/my-plants">My Plants</Link></li>
         </ul>
       </div>
       <div className="navbar-end">

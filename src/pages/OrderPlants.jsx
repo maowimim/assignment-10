@@ -1,11 +1,19 @@
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
 
-import React, {useState } from 'react';
-
-const MyOrders = () => {
-    const [myOrders,] = useState([]);
-
-    return (
-        <div>
+const OrderPlants = () => {
+       const [myOrders, setMyOrders] = useState([]);
+    console.log(myOrders)
+    useEffect(() => {
+        axios.get("http://localhost:3000/orders")
+            .then(res => {
+                setMyOrders(res.data)
+            })
+            .catch(err => { console.log(err) })
+    }, [])
+    console.log(myOrders);
+  return (
+      <div>
             <div className="overflow-x-auto">
                 <table className="table table-xs">
                     <thead>
@@ -47,7 +55,7 @@ const MyOrders = () => {
                 </table>
             </div>
         </div>
-    );
-};
+  )
+}
 
-export default MyOrders;
+export default OrderPlants

@@ -8,6 +8,9 @@ import Myprofile from "../pages/Myprofile";
 import PrivateRouter from "../Provider/PrivateRouter";
 import VeiwDetails from "../pages/VeiwDetails";
 import AddPlants from "../pages/AddPlants";
+import OrderPlants from "../pages/OrderPlants";
+import MyPlants from "../pages/MyPlants";
+import UpdatePlant from "../pages/UpdatePlant";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +45,18 @@ const router = createBrowserRouter([
         {
           path:'/add-plants',
           element:<AddPlants></AddPlants>
+        },
+         {
+          path:'/my-orders',
+          element:<OrderPlants></OrderPlants>
+        },
+        {
+          path:'/my-plants',
+          element:<MyPlants></MyPlants>
+        },
+         {
+          path:'/update-plant',
+          element:<UpdatePlant></UpdatePlant>
         }
     ]
   },
