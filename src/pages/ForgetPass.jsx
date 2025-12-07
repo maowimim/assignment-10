@@ -41,12 +41,6 @@ const ForgetPass = () => {
             />
           </div>
 
-          <button
-            type="submit"
-            className="w-full py-2 text-white font-semibold rounded-lg bg-gradient-to-r from-amber-600 via-orange-500 to-yellow-400 hover:from-yellow-400 hover:via-orange-500 hover:to-amber-600 transition-all duration-300 shadow-md hover:shadow-xl"
-          >
-            Reset
-          </button>
         </form>
       </div>
     </div>
