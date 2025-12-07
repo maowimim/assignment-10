@@ -1,0 +1,110 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "image": "https://i.ibb.co.com/tTjWv8z4/1.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Aloe Vera",
+    "category": "Medicinal",
+    "price": 15,
+    "rating": 4.7,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "A soothing medicinal plant great for healing skin and improving indoor air.",
+    "image": "https://i.ibb.co.com/twjPFPYq/2.jpg",
+    "providerName": "Leaf & Root Co."
+  },
+  {
+    "plantId": 3,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 25,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Medium",
+    "description": "An elegant plant with white blooms that requires moderate watering and care.",
+    "image": "https://i.ibb.co.com/kV8Z4Ywj/3.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 4,
+    "plantName": "ZZ Plant",
+    "category": "Low Maintenance",
+    "price": 22,
+    "rating": 4.9,
+    "availableStock": 14,
+    "careLevel": "Easy",
+    "description": "A nearly indestructible plant that survives in low light and irregular watering.",
+    "image": "https://i.ibb.co.com/ksNFHZqC/4.jpg",
+    "providerName": "GreenNest Hub"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Monstera Deliciosa",
+    "category": "Decorative",
+    "price": 35,
+    "rating": 4.9,
+    "availableStock": 6,
+    "careLevel": "Medium",
+    "description": "A trendy indoor plant with natural leaf holes, perfect for modern home décor.",
+    "image": "https://i.ibb.co.com/0VR0grV0/5.jpg",
+    "providerName": "Leaf & Root Co."
+  },
+  {
+    "plantId": 6,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 16,
+    "rating": 4.5,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "A fast-growing plant that removes toxins and is safe for pets.",
+    "image": "https://i.ibb.co.com/zhTd3zjy/6.jpg",
+    "providerName": "NatureCare Nursery"
+  },
+  {
+    "plantId": 7,
+    "plantName": "Golden Pothos",
+    "category": "Climbing",
+    "price": 14,
+    "rating": 4.8,
+    "availableStock": 18,
+    "careLevel": "Easy",
+    "description": "A beginner-friendly climbing plant that thrives in almost any lighting condition.",
+    "image": "https://i.ibb.co.com/Jw079Y3x/7.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 8,
+    "plantName": "Rubber Plant",
+    "category": "Decorative",
+    "price": 28,
+    "rating": 4.7,
+    "availableStock": 9,
+    "careLevel": "Medium",
+    "description": "A stylish dark-leaf plant that grows tall and adds a bold look to indoor spaces.",
+    "image": "https://i.ibb.co.com/MrH5JK9/8.jpg",
+    "providerName": "GreenNest Hub"
+  },
+  {
+    "plantId": 9,
+    "plantName": "Lavender",
+    "category": "Fragrant",
+    "price": 20,
+    "rating": 4.6,
+    "availableStock": 7,
+    "careLevel": "Medium",
+    "description": "A beautifully scented plant that promotes relaxation and natural air freshness.",
+    "image": "https://i.ibb.co.com/ks0wf3rL/9.jpg",
+    "providerName": "Leaf & Root Co."
+  }
+]
